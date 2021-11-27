@@ -1,0 +1,54 @@
+@import '../../global_scss/Colors.scss';
+
+
+.EquipmentBlock{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: -10px;
+    margin-right: -10px;
+ }
+
+.EquipmentItem{
+    padding:10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    @media (max-width:450px) {
+        width: 100%;  
+    }
+}
+
+
+
+.EquipmentItem p{
+    font-size: 20px;
+    line-height: 26px;
+    color: $colorPrimaryBlue;
+    @media (max-width:1030px) {
+        font-size: 18px;
+        line-height: 24px;  
+    }
+    @media (max-width:700px) {
+        font-size: 16px;
+        line-height: 21px;  
+    }
+    @media (max-width:450px) {
+        font-size: 18px;
+        line-height: 24px;  
+    }
+    }
+
+
+.EquipmentImgHolder{
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.EquipmentImgHolder img{
+    width: 100%;
+}

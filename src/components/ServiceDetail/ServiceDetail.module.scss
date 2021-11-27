@@ -1,0 +1,118 @@
+@import '../../global_scss/Colors.scss';
+
+
+.ServiceDetail{
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+}
+
+
+
+.ServiceDetailBlock h4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: $colorPrimaryBlue;   
+    font-weight: 500;
+}
+
+.ServiceDetailBlock p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: default;
+    text-transform: uppercase;
+    
+}
+
+
+.horizontalImgsHolder{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+
+.imgSmall{
+   width: 21%;
+   border-radius: 50%;
+   overflow: hidden;
+   -webkit-box-shadow: 5px 8px 0px 1px $colorPrimaryGreen_000;
+-moz-box-shadow: 5px 8px 0px 1px $colorPrimaryGreen_000;
+box-shadow: 5px 8px 0px 1px $colorPrimaryGreen_000;
+}
+
+.imgSmall img{
+    width: 100%;
+}
+
+.Revers {
+font-weight: 600;
+font-size: 20px;
+color: $colorPrimaryBlue; 
+margin-bottom: 30px;
+cursor: pointer;
+}
+
+
+.item{
+    
+    // background: green;
+    
+    margin: 0 15px;
+    padding: 0px;
+}
+
+
+
+.itemText{
+    font-size: 21px;
+    cursor: default;
+    color:#313a45;
+   
+    
+    line-height: 29px;
+}
+.item ul{
+
+    
+    
+}
+
+// .item ul :nth-child(1){
+//     border-bottom:  0px ;
+//     background-color: deeppink;
+    
+// }
+
+
+.item li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    list-style-image: url(chevron_blue.png);
+    // list-style-type: square;
+    border-bottom: $colorPrimaryBlueLight dotted 1px ;
+    
+    // border-bottom: deeppink solid 1px ;
+    
+}
+
+
+
+
+.textWrapper {
+    background-color: #ffffff;
+    padding:15px;
+    border: 1px #e6e6e6 solid;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 1px rgba(230,230,230,1);
+}
+
+
+
+
+

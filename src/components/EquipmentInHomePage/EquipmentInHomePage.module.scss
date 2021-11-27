@@ -1,0 +1,60 @@
+@import '../../global_scss/Colors.scss';
+@import '../../global_scss/Sizes.scss';
+
+.EquipmentInHomePage{
+    margin: 0 auto;
+    margin-top:30px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    max-width: $MaxContentWidth;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin-bottom: 30px;
+    
+}
+
+
+.EquipmentInHomePage a{
+    
+color:rgba(24, 165, 153, 0);
+}
+
+
+
+
+
+
+
+
+.EquipmentBlock {
+    display: flex;
+    margin: 15px;
+    padding:8px;
+    border-radius: 8px;
+    align-items: center;
+  }
+
+
+.EquipmentInHomePage h1{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: none;
+    
+    margin: 15px;
+
+}
+
+
+
+.ImgHolder{
+    width: 100px;
+    
+    border-radius: 7px;
+    overflow: hidden;
+    margin-right: 8px;
+}
+
+.ImgHolder > img{
+    width: 100%;
+}

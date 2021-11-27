@@ -1,0 +1,12 @@
+.MainWrapper {
+    display: flex;
+    flex-direction: row;
+    // background-color: darkcyan;
+    box-sizing: border-box;
+    padding: 0;
+    position:relative;
+
+    @media (max-width:980px) {
+        flex-direction: column;
+    }
+}

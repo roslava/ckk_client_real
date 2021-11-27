@@ -1,0 +1,51 @@
+$colorPrimaryBlue: rgba(24, 106, 165, 1);
+
+// $BlueLightAlter2 for $colorPrimaryBlue (for gradients)
+$BlueLightAlter2: rgba(24, 89, 137, 1);
+
+$colorPrimaryBlueLight: rgba(209, 228, 243, 1);
+$BlueLightAlter1: rgba(183, 224, 250, 1);
+// $BlueLightAlter1 for $colorPrimaryBlueLight (for gradients)
+
+$colorPrimaryWhiteBlue: rgba(232, 239, 247, 1);
+$gradientBlue:linear-gradient(110deg,$colorPrimaryBlue, $BlueLightAlter2);
+
+$softBlack: rgba(39, 39, 39, 1);
+
+
+
+$colorPrimaryOrange_900: rgba(165, 83, 24 ,1);
+$colorPrimaryOrange_800: rgba(190, 95, 26 ,1);
+$colorPrimaryOrange_700: rgba(204, 102, 27 ,1);
+$colorPrimaryOrange_600: rgba(217, 110, 30 ,1);
+$colorPrimaryOrange_500: #e37422;
+$colorPrimaryOrange_400: rgba(231, 133, 68 ,1);
+$colorPrimaryOrange_300: rgba(235, 152, 103, 1);
+$colorPrimaryOrange_200: rgba(240, 180, 146 ,1);
+$colorPrimaryOrange_100: rgba(245, 209, 189 ,1);
+$colorPrimaryOrange_000: rgba(247, 235, 231 ,1);
+
+$gradientOrange:linear-gradient(110deg, $colorPrimaryOrange_000, $colorPrimaryOrange_100);
+
+
+$colorPrimaryGreen_400: rgba(24, 165, 153, 1);
+$colorPrimaryGreen_300: rgba(71, 181, 171, 1);
+$colorPrimaryGreen_200: rgba(125, 202, 196, 1);
+$colorPrimaryGreen_100: rgba(177, 223, 219, 1);
+$colorPrimaryGreen_000: rgba(223, 242, 241, 1);
+
+$gradientGreen:linear-gradient(110deg, $colorPrimaryGreen_000, $colorPrimaryGreen_100);
+
+
+
+
+
+
+
+
+
+
+
+
+
+

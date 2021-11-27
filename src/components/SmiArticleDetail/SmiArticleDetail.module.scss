@@ -1,0 +1,278 @@
+@import '../../global_scss/Colors.scss';
+
+.SmiArticleDetail{
+    
+}
+.block{
+
+}
+
+.smiName{
+font-family: 'Montserrat', sans-serif;
+font-size: 22px;
+text-transform: uppercase;
+font-weight: 500;
+margin-top: 30px;
+color: $colorPrimaryGreen_400;
+text-align: left;
+    @media (max-width:900px){
+        font-size: 19px;
+    }
+    @media (max-width:800px){
+        font-size: 16px;
+    }
+}
+
+
+
+.imgContainer{
+    width: 100%;
+}
+
+.imgContainer img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+
+.text {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 32px; 
+    margin-bottom: 30px;
+    text-align: justify;
+    // word-wrap: break-word;
+
+
+        -webkit-hyphens: auto;
+        -webkit-hyphenate-limit-before: 3;
+        -webkit-hyphenate-limit-after: 3;
+        -webkit-hyphenate-limit-chars: 6 3 3;
+        -webkit-hyphenate-limit-lines: 2;
+        -webkit-hyphenate-limit-last: always;   
+        -webkit-hyphenate-limit-zone: 8%;
+    
+        -moz-hyphens: auto;
+        -moz-hyphenate-limit-chars: 6 3 3;
+        -moz-hyphenate-limit-lines: 2;  
+        -moz-hyphenate-limit-last: always;
+        -moz-hyphenate-limit-zone: 8%;
+    
+        -ms-hyphens: auto;
+        -ms-hyphenate-limit-chars: 6 3 3;
+        -ms-hyphenate-limit-lines: 2;
+        -ms-hyphenate-limit-last: always;   
+        -ms-hyphenate-limit-zone: 8%;
+    
+        hyphens: auto;
+        hyphenate-limit-chars: 6 3 3;
+        hyphenate-limit-lines: 2;
+        hyphenate-limit-last: always;   
+        hyphenate-limit-zone: 8%;
+
+        @media (max-width:900px){
+            font-size: 19px;
+            line-height: 27px; 
+        }
+
+        @media (max-width:800px){
+            font-size: 16px;
+            line-height: 26px; 
+         }
+
+         @media (max-width:500px){
+
+            text-align: left;
+        }
+    }
+
+
+
+
+
+
+
+ .text h4 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+    text-align: left;
+
+    @media (max-width:900px){
+        font-size: 25px;
+    }
+
+    @media (max-width:800px){
+        font-size: 16px;
+        line-height: 26px; 
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }
+
+
+    
+ }
+
+.text img {
+   max-width: 50%;
+   margin-top:17px;
+   margin-bottom:30px;
+
+   @media (max-width:900px){
+    min-width: 70%;
+}
+
+@media (max-width:600px){
+    min-width: 80%;
+}
+
+            @media (max-width:500px){
+                min-width: 100%;
+            }
+}
+
+
+.additionalText1{
+   
+        font-style: oblique;
+        border-left: solid 3px rgba(231, 133, 68 ,1);
+        padding-left: 15px;
+        padding-bottom: 3px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        text-align: left;
+
+        
+
+        @media (max-width:900px){
+            font-size: 19px;
+            line-height: 27px; 
+        }
+
+        @media (max-width:800px){
+            font-size: 16px;
+            line-height: 26px; 
+         }
+
+         @media (max-width:500px){
+
+            text-align: left;
+
+            -webkit-hyphens: auto;
+        -webkit-hyphenate-limit-before: 3;
+        -webkit-hyphenate-limit-after: 3;
+        -webkit-hyphenate-limit-chars: 6 3 3;
+        -webkit-hyphenate-limit-lines: 2;
+        -webkit-hyphenate-limit-last: always;   
+        -webkit-hyphenate-limit-zone: 8%;
+    
+        -moz-hyphens: auto;
+        -moz-hyphenate-limit-chars: 6 3 3;
+        -moz-hyphenate-limit-lines: 2;  
+        -moz-hyphenate-limit-last: always;
+        -moz-hyphenate-limit-zone: 8%;
+    
+        -ms-hyphens: auto;
+        -ms-hyphenate-limit-chars: 6 3 3;
+        -ms-hyphenate-limit-lines: 2;
+        -ms-hyphenate-limit-last: always;   
+        -ms-hyphenate-limit-zone: 8%;
+    
+        hyphens: auto;
+        hyphenate-limit-chars: 6 3 3;
+        hyphenate-limit-lines: 2;
+        hyphenate-limit-last: always;   
+        hyphenate-limit-zone: 8%;
+        }
+        
+}
+
+blockquote{
+    padding-left: 10px !important;
+    border-left: 3px solid rgba(231, 133, 68 ,1) !important;
+    font-weight: 600  !important;
+    font-size: 17px !important;
+    text-align: left;
+    @media (max-width:900px){
+        font-size: 15px  !important;
+       line-height: 21px;
+    }
+}
+
+
+
+
+
+.additionalText2{
+    padding:15px;
+    border: 2px dotted cyan;
+    border-radius: 5px;
+    text-align: left;
+
+    -webkit-hyphens: auto;
+    -webkit-hyphenate-limit-before: 3;
+    -webkit-hyphenate-limit-after: 3;
+    -webkit-hyphenate-limit-chars: 6 3 3;
+    -webkit-hyphenate-limit-lines: 2;
+    -webkit-hyphenate-limit-last: always;   
+    -webkit-hyphenate-limit-zone: 8%;
+
+    -moz-hyphens: auto;
+    -moz-hyphenate-limit-chars: 6 3 3;
+    -moz-hyphenate-limit-lines: 2;  
+    -moz-hyphenate-limit-last: always;
+    -moz-hyphenate-limit-zone: 8%;
+
+    -ms-hyphens: auto;
+    -ms-hyphenate-limit-chars: 6 3 3;
+    -ms-hyphenate-limit-lines: 2;
+    -ms-hyphenate-limit-last: always;   
+    -ms-hyphenate-limit-zone: 8%;
+
+    hyphens: auto;
+    hyphenate-limit-chars: 6 3 3;
+    hyphenate-limit-lines: 2;
+    hyphenate-limit-last: always;   
+    hyphenate-limit-zone: 8%;
+
+    @media (max-width:900px){
+        font-size: 19px;
+        line-height: 27px; 
+    }
+
+    @media (max-width:800px){
+        font-size: 16px;
+        line-height: 26px; 
+     }
+
+     @media (max-width:500px){
+
+        text-align: left;
+    }
+}
+
+.author{
+    font-size: 14px;
+    line-height: 32px; 
+    margin-top: 15px; 
+    margin-bottom: 0px; 
+    color: #575757 ; 
+    font-weight: 500;
+    text-align: left;
+}
+
+
+.original{
+    font-size: 14px;
+    text-decoration: none;
+    color:$colorPrimaryBlue;
+    margin-bottom: 30px;
+    font-weight: 500;
+    text-align: left;
+}
+
+
+
+
+

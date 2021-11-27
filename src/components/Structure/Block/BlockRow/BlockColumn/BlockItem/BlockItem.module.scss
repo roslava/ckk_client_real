@@ -1,0 +1,56 @@
+@import '../../../../../../global_scss/Colors.scss';
+
+
+.BlockItem{
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	width: 100%;
+	// border: solid 1px black;
+	margin-top: 15px;
+	// background-color: #a52424;
+
+	@media (max-width:900px){
+		margin-top: 2px;
+}
+
+}
+
+.BlockItem p{
+	// color: $colorPrimaryBlue;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 20px;
+	cursor:  default;
+}
+
+.Three {
+	// background-color: #b5188e;
+}
+
+
+
+
+
+.Two {
+	// background-color: #18b5a4;
+}
+
+.Two h1 {
+	margin-top: -5px;
+	color:#313a45;
+	font-size: 24px;
+	font-weight: 700;
+	// text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 12px;
+	cursor:default;
+
+	@media only screen and (max-width: 830px)  {
+		font-size: 18px;
+      }
+}
+
+
+
+

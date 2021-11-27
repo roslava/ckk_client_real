@@ -1,0 +1,61 @@
+.Frame{
+    max-width: 770px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #311e9c;
+    
+   
+    // overflow: hidden !important;
+    position: relative; 
+    -webkit-box-orient: horizontal; 
+    -webkit-box-direction: normal; 
+    -ms-flex-direction: row; 
+            flex-direction: row;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+ 
+    
+
+}
+
+.Tile{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    padding-top: 14px;
+    padding-left: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left ;
+    z-index:2000;
+    
+    >h3{
+        text-shadow: 1px 1px 2px 0 0 1em #e4771e;
+        background-color: #313a45;
+        
+        display: inline;
+        padding: 4px;
+        padding-right:10px;
+        padding-top: 0px;
+        line-height: 55px;
+       
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

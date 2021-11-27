@@ -1,0 +1,74 @@
+@import '../../global_scss/Colors.scss';
+
+
+.ItemsHolder {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    margin-left: -10px;
+    margin-right: -10px;
+    @media (max-width:580px){
+        font-size: 17px;
+        flex-direction: column;
+    } 
+}
+
+.Padding{
+min-width: 100%;
+}
+
+.Join{
+    display: block
+}
+
+
+.Contacts h3 {
+    font-size: 26px;
+    color: $colorPrimaryBlue;
+    font-weight: 600;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.MapHolder {
+    min-width: 100%;
+}
+
+
+.MapHolder img {
+    min-width: 100%;
+}
+
+
+.WorkingMode {
+    background-color: #d3e4f3;
+    background: #ee6035;
+    background: linear-gradient(8deg, #ee6035 41%, rgba(245,105,30,1) 78%, rgba(255,141,80,1) 99%);
+    color: #ffffff;
+    min-height: 34px;
+    max-height: 34px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    justify-content: center;
+    @media (max-width:800px){
+        min-height: 30px;
+        max-height: 30px;
+        font-size: 17px;
+    }
+    @media (max-width:650px){
+        font-size: 15px;
+        max-height: 70px;
+        padding: 10px;
+        text-align: center;
+    } 
+}

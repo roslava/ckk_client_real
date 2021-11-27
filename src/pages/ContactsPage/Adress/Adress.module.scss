@@ -1,0 +1,64 @@
+@import '../../../global_scss/Colors.scss';
+
+.AdressWrap {
+    width: 100%;
+    padding: 15px;
+    // background-color: goldenrod;
+}
+
+.AdressBlock {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    padding: 15px;
+    box-shadow: 1px 1px 10px 1px rgba(116, 113, 116, .3);
+    background: #ffffff;
+}
+
+.AdressTitle {
+    background-color: #d3e4f3;
+    background: #ee6035;
+ background: linear-gradient(8deg, #ee6035 41%, rgba(245,105,30,1) 78%, rgba(255,141,80,1) 99%);
+    color: #ffffff;
+    min-height: 34px;
+    max-height: 34px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    @media (max-width:800px){
+        min-height: 30px;
+        max-height: 30px;
+        font-size: 20px;
+    }
+    @media (max-width:650px){
+        font-size: 17px;
+    } 
+}
+
+.AdressBlock a {
+    text-decoration: none;
+    color: $softBlack;
+    background-color: none;
+}
+
+.AdressBlock p {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
+    margin: 0px;
+    color: $softBlack;
+    @media (max-width:800px){
+        font-size: 20px;
+        line-height: 27px;
+    } 
+
+    @media (max-width:650px){
+        font-size: 17px;
+        line-height: 24px;
+    } 
+}

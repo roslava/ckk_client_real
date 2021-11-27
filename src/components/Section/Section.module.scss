@@ -1,0 +1,28 @@
+
+@import '../../global_scss/Colors.scss';
+
+.SectionContainer{
+}
+
+section{
+    display: flex;
+    flex-grow: 4;
+    flex-basis: 70%;
+    padding-right: 15px;
+    padding-bottom: 15px;;
+    // margin-top: 90px;
+}
+
+// .Section > h1 {
+//     font-size: 42;
+//     text-transform: uppercase;
+//     letter-spacing: 1px;
+//     font-weight: 700;
+//     color: $colorPrimaryBlue;
+//     margin-bottom: 60px;
+//     }
+
+
+.Section > p {
+color: $colorPrimaryBlue;
+}

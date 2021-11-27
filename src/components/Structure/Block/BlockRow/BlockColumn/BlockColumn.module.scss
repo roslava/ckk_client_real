@@ -1,0 +1,52 @@
+.BlockColumn{
+	display:flex;
+	
+	
+}
+
+
+.Three {
+	flex: 0 1 100%;
+	padding: 0px 15px;
+	margin: 0px 0px 15px 0px;
+	// background-color: rgb(231, 105, 67);
+
+	@media (min-width:520px){
+		flex: 0 1 50%;
+		max-width: 50%;
+}
+	
+		@media (min-width:920px){
+			flex: 0 1 33.333%;
+			max-width: 33.333%;
+	}
+
+	@media (max-width:900px){
+		padding: 0px 8px;
+}
+
+	@media (max-width:620px){
+		flex: 0 1 100%;
+		max-width: 100%;
+}
+}
+
+
+.Two {
+	flex: 0 1 100%;
+	padding: 0px 15px;
+	margin: 0px 0px 15px 0px;
+	// background-color: rgb(146, 44, 121);
+
+	@media (min-width:520px){
+		flex: 0 1 50%;
+		// max-width: 40%;
+		max-width:  50%;
+}
+@media (min-width:800px){
+	flex: 0 1 50%;
+	max-width:  50%;
+}
+	
+
+}

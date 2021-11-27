@@ -1,0 +1,120 @@
+.Director{
+    width: 100%;
+    margin-bottom:30px;
+    color:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #225a92;
+    background: linear-gradient(8deg, rgba(29,70,130,1) 31%, rgba(43,129,182,1) 88%);
+    padding: 30px;
+    border-radius: 5px;
+
+    // border: 1px #f0c2aa;
+    border: 1px #ffffff;
+
+    -webkit-box-shadow: 0px 0px 13px 2px #ffffff;
+-moz-box-shadow: 0px 0px 13px 2px #ffffff;
+box-shadow: 0px 0px 13px 2px #ffffff;
+
+
+
+
+    
+}
+
+.Director .Title {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 15px;
+    @media (max-width:630px){
+        font-size: 20px;
+    } 
+}
+
+.Director .Holder {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    @media (max-width:630px){
+        flex-direction: column;
+    }  
+}
+
+.Director .Item {
+    // background: orange;
+    width: 100%;
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+
+    -webkit-hyphens: auto;
+    -webkit-hyphenate-limit-before: 3;
+    -webkit-hyphenate-limit-after: 3;
+    -webkit-hyphenate-limit-chars: 6 3 3;
+    -webkit-hyphenate-limit-lines: 2;
+    -webkit-hyphenate-limit-last: always;   
+    -webkit-hyphenate-limit-zone: 8%;
+
+    -moz-hyphens: auto;
+    -moz-hyphenate-limit-chars: 6 3 3;
+    -moz-hyphenate-limit-lines: 2;  
+    -moz-hyphenate-limit-last: always;
+    -moz-hyphenate-limit-zone: 8%;
+
+    -ms-hyphens: auto;
+    -ms-hyphenate-limit-chars: 6 3 3;
+    -ms-hyphenate-limit-lines: 2;
+    -ms-hyphenate-limit-last: always;   
+    -ms-hyphenate-limit-zone: 8%;
+
+    hyphens: auto;
+    hyphenate-limit-chars: 6 3 3;
+    hyphenate-limit-lines: 2;
+    hyphenate-limit-last: always;   
+    hyphenate-limit-zone: 8%;
+
+
+
+
+
+
+
+    @media (max-width:630px){
+        margin-left: 0px;
+        margin-top: 20px;
+        font-size: 15px;
+        line-height: 23px;
+    }
+}
+
+.Director .Portret {
+    // background:green;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border:15px solid #2e6da3;
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(18, 56, 106, 1);
+    -moz-box-shadow: 0px 0px 13px 2px rgba(18, 56, 106, 1);
+    box-shadow: 0px 0px 13px 2px rgba(18, 56, 106, 1);
+
+    @media (max-width:630px){
+        min-width: 170px;
+    min-height: 170px;
+    max-width: 170px;
+    max-height: 170px;
+    border-radius: 50%;
+    overflow: hidden;
+    border:11px solid #2e6da3;
+    }  
+}
+
+.Director .Portret > img {
+    width: 100%;
+    
+}
+
+

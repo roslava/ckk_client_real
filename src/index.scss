@@ -1,0 +1,57 @@
+@import './global_scss/Colors.scss';
+@import './global_scss/Sizes.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body, html{
+ 
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background-color: #fff7f1;
+
+   
+    
+  }
+
+ a:-webkit-any-link{
+   cursor: pointer;
+ }
+
+
+  .question{
+    // font-style: oblique;
+    font-weight: 500;
+    // color:#777a82;
+    font-style: italic;
+}
+
+
+
+.newsImg{
+  width: 400px;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+.carousel .slide{
+  background-color: #fff7f2 !important;
+}

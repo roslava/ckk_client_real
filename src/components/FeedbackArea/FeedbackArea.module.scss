@@ -1,0 +1,27 @@
+.FeedbackArea {
+    min-width: 100%;
+    // background-attachment: fixed;
+    // background-size: cover;
+    -webkit-box-shadow: inset 0px 11px 28px -5px rgba(0, 0, 0, 0.38);
+    box-shadow: inset 0px 11px 28px -5px rgba(0, 0, 0, 0.38);
+    position: relative;
+    padding-top:0px;
+    
+    
+}
+
+.FeedbackPattern{
+    position:'absolute';
+    left:0px;
+    top:-200px;
+    margin-top:0px;
+    min-width:100%;
+    min-height:100%;
+    // background-color: red;
+    background-image: url(./img/FeebackArea_bg.png);
+    background-size: 20%;
+    
+    // mix-blend-mode:multiply;
+    // z-index: 2;
+}
+    

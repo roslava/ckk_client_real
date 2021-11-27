@@ -1,0 +1,45 @@
+@import '../../global_scss/Colors.scss';
+
+
+.Block {
+
+cursor: pointer;
+border-radius: 4px;
+overflow: hidden;
+// margin-top:10px;
+// margin-bottom: 30px;
+display: block;
+width: auto;
+color: #ffffff; 
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 1px;
+
+}
+
+
+.Block > div {
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding: 0 15px;
+    height: 30px;
+    
+
+}
+
+.Block > div > span {
+    margin-right: 5px;
+    margin-top: -2px;
+    
+
+}
+
+
+
+
+
+
+
+
+

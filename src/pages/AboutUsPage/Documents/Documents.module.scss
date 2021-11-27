@@ -1,0 +1,40 @@
+.Documents{
+    width: 100%;
+    margin-bottom:30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #37414d;
+    
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fff8f4;
+    border: 1px #f0c2aa;
+
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(255,206,181,1);
+-moz-box-shadow: 0px 0px 13px 2px rgba(255,206,181,1);
+box-shadow: 0px 0px 13px 2px rgba(255,206,181,1);
+    
+    
+}
+
+.Documents .Title {
+    color: #37414d;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+   
+}
+
+.Documents .Holder {
+    // display:flex;
+    // justify-content: space-between;
+    background-color: #225a92;
+}
+
+// .Documents .Item {
+//     // background: orange;
+//     width: 100%;
+//     border-left: solid 2px black;
+//     padding-left: 15px;
+//     font-size: 22px;
+// }

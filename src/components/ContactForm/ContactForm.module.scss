@@ -1,0 +1,58 @@
+@import '../../global_scss/Colors.scss';
+@import '../../global_scss/Sizes.scss';
+
+.FeedBackForm{
+    max-width: 770px;
+    margin: 0 auto;
+   z-index: 100;
+    padding:40px 15px 15px 15px;
+    mix-blend-mode: unset;
+
+}
+
+.FeedBackForm input, textarea{
+    -webkit-box-shadow: 0px 0px 20px -3px rgba(0,0,0,0.60); 
+    box-shadow: 0px 0px 20px -3px rgba(0,0,0,0.60);
+}
+
+.submitHolder{
+    width: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.submitHolder > input{
+    color: #ffffff;
+    width: 150px;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border:0px;
+    border-radius: 4px;
+    margin: 0 auto;
+
+}
+
+
+
+
+.send{
+    
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+      background-color:#38c190;
+      color: #ffffff;
+      text-align: center;
+      margin-top:30px;
+      margin-bottom:30px;
+      border-radius: 3px;
+      
+
+}
+
+

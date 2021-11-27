@@ -1,0 +1,281 @@
+@import '../../global_scss/Colors.scss';
+@import '../../global_scss/Sizes.scss';
+
+.Footer{
+    
+    background-color: #0d588f;
+    width: 100%;
+    border-top: solid 1px #0d4c7a;
+    
+}
+
+.FooterSection{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    height: auto;
+    background-color: #0d588f;
+    // background-color: red;
+
+
+
+    @media (max-width:870px){
+        justify-items: start;
+       flex-direction: column;
+       align-content: center;
+       align-items: center;
+       justify-items: center;
+       justify-content: center;
+       padding-top:0px ;
+    }
+
+}
+
+
+
+.LogoDiv{
+    min-width: 25%;
+    max-width: 25%;
+    // background-color: darkgoldenrod;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width:870px){
+display:none;
+        
+        }  
+
+}
+
+.ServicesDiv{
+    min-width: 25%;
+    max-width: 25%;
+    // background-color: darkgoldenrod;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    font-size: 13px;
+    border-left: solid 1px #0d4c7a;
+    padding: 15px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+   
+    @media (max-width:870px){
+        padding-top: 15px;
+        min-width: 100%;
+        border-bottom: solid 1px #0d4c7a;
+        border-left: solid 0px;
+        margin-bottom: 0px;
+        align-items: flex-start;
+        }  
+
+    @media (max-width:600px){
+        flex-direction: column;
+        height: auto;
+     }
+}
+
+.ServicesDiv a{
+    color:$BlueLightAlter1;
+    :hover{
+        color:#ffffff;
+    }
+}
+
+.ServicesDiv :hover{
+ 
+        color:#ffffff;
+   
+}
+
+.ServicesDivTitle{
+    width: 100%;
+    font-size:13px;
+    font-weight: 500;
+    color:#ffffff;
+}
+
+.InfoDiv{
+    border-left: solid 1px #0d4c7a;
+    min-width: 25%;
+    max-width: 25%;
+    // background-color: darkgoldenrod;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    padding: 30px 15px;
+    @media (max-width:870px){
+        min-width: 100%;
+        border-left: solid 0px #0d4c7a;
+        border-bottom: solid 1px #0d4c7a;
+        align-items: flex-start;
+        }  
+}
+
+.InfoDiv a{
+    min-width: 100%;
+    font-size:13px;
+    font-weight: 500;
+    color:$BlueLightAlter1;
+    :hover{
+        color:#ffffff;
+    }
+}
+
+.ContactsDiv{
+    min-width: 25%;
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    border-left: solid 1px #0d4c7a;
+    // background-color: darkgoldenrod;
+
+    @media (max-width:870px){
+        min-width: 100%;
+        border-left: solid 0px;
+        padding: 15px;
+        align-items: flex-start;
+        }  
+
+
+    @media (max-width:480px){
+        flex-direction: column;
+        height: auto;
+        
+      
+    }
+}
+
+.ContactsDiv ul{
+   margin: 0px;
+   padding: 0px;
+   margin-bottom: 30px;
+   border: 1px solid #0d4c7a;
+   padding: 4px;
+   border-radius: 7px;
+   box-shadow: 2px 2px 5px -1px #1b4666;
+}
+
+.ContactsDiv li{
+    list-style: none;
+    margin: 4px;
+    
+ }
+
+ .ContactsDiv li img{
+   width: 22px;
+   margin-right: 4px;
+  }
+
+ .ContactsDiv li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+.Media{
+    display: flex;
+    border: 1px solid #0d4c7a;
+    padding: 4px;
+    width: auto;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px -1px #1b4666;
+    margin-bottom: 30px;
+    @media (max-width:480px){
+    
+        margin-bottom: 30px;
+        
+    }
+}
+
+
+
+.MediaItem{
+    width: 30px;
+    height: 30px;
+    
+    border-radius: 4px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+
+
+
+.Auth{
+    display: flex;
+    border: 1px solid #0d4c7a;
+    padding: 4px;
+    width: auto;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px -1px #1b4666;
+    @media (max-width:480px){
+    
+        margin-bottom: 30px;
+        
+    }
+}
+
+
+
+.Auth a{
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    margin: 4px;
+    cursor: pointer; 
+    padding: 0;
+}
+
+
+// .AuthItem{
+//     width: 30px;
+//     height: 30px;
+    
+//     border-radius: 4px;
+//     margin: 4px;
+//     cursor: pointer;
+// }
+
+
+
+
+
+
+
+.Yandex{
+    display: flex;
+    border: 1px solid #0d4c7a;
+    padding: 4px;
+    width: auto;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px -1px #1b4666;
+    @media (max-width:480px){
+    
+        margin-bottom: 30px;
+        
+    }
+}
+
+
+
+
+.Yandex a{
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    margin: 4px;
+    cursor: pointer; 
+    padding: 0;
+}
+
+
+
+.Services{
+    color: #ffffff;
+}
+

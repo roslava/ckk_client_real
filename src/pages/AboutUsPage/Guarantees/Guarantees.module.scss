@@ -1,0 +1,89 @@
+.Guarantees{
+    min-width: 100%;
+   
+    margin-bottom:30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #37414d;
+
+    
+}
+
+.Guarantees .Title {
+    color: #37414d;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.Guarantees .svg {
+    width: 99%;
+    margin-bottom: 10px;
+}
+
+
+.Guarantees .Holder {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+    @media (max-width:500px){
+        flex-direction: column;
+    }  
+}
+
+
+@media (max-width:500px){
+    .Guarantees .Holder :nth-child(1) {
+        margin-bottom: 30px;
+    }
+}  
+
+.Guarantees .Item {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 32px;
+    width: 49.4%;
+    padding: 20px;
+    text-align: center;
+    color: #e99b42;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px #f0c2aa;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 3px solid #f0c2aa;
+    
+
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(255,206,181,1);
+-moz-box-shadow: 0px 0px 13px 2px rgba(255,206,181,1);
+box-shadow: 0px 0px 13px 2px rgba(255,206,181,1);
+
+@media (max-width:500px){
+    width: 100%;
+    padding-top: 40px;
+}  
+}
+
+
+
+.IconHolder{
+    min-width: 110px;
+    min-height: 110px;
+    max-width: 110px;
+    max-height: 110px;
+    background-color: #225a92;
+    background: linear-gradient(8deg, rgba(29,70,130,1) 31%, rgba(43,129,182,1) 88%);
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+    -webkit-box-shadow: 5px 5px 0px 1px #b2c5d8; 
+box-shadow: 5px 5px 0px 1px #b2c5d8;
+    
+}
+.IconHolder img{
+    width: 70%;
+    left: 15%;
+    top: 15% ;
+    position: absolute;
+}

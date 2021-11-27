@@ -1,0 +1,32 @@
+@import '../../global_scss/Colors.scss';
+
+
+
+
+.Cards{
+    box-sizing: border-box;
+    min-width: 100%;
+  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+    // padding: 0px;
+    // background-color: greenyellow;
+    @media (max-width:780px){
+        
+        
+    }
+
+}
+
+
+
+.column{
+  margin-top: 15px;
+  flex-direction: column;
+}
+
+.row{
+  flex-direction: row;
+}
+

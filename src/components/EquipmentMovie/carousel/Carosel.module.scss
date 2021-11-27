@@ -1,0 +1,181 @@
+
+
+
+
+
+
+
+
+
+.Capture{
+    display: flex;
+    align-self: flex-end;
+
+ 
+
+    width: auto;
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: #313a45;
+  opacity: .9; 
+  margin:15px;
+  
+    border-radius: 5px;
+    
+    :nth-child(1){
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+margin:initial;
+        padding-right: 13px;
+        padding-left: 13px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        
+    }
+
+    @media (max-width:860px){
+        align-self: flex-end;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes animatedOpacity {
+    0% {opacity: 0}
+    3% {opacity: 0}
+    50% {opacity: 100}
+    97% {opacity: 0}
+    100% {opacity: 0}
+}
+
+/* Mozilla Firefox 5.0+ */
+@-moz-keyframes animatedOpacity {
+    0% {opacity: 0}
+    10% {opacity: 0}
+    50% {opacity: 100}
+    95% {opacity: 0}
+    100% {opacity: 0}
+}
+
+/* Safari 4.0+, Chrome 4.0+ */
+@-webkit-keyframes animatedOpacity {
+    0% {opacity: 0}
+    10% {opacity: 0}
+    50% {opacity: 100}
+    95% {opacity: 0}
+    100% {opacity: 0}
+}
+
+
+/* Opera 12.0+ */
+@-o-keyframes animatedOpacity {
+    0% {opacity: 0}
+    10% {opacity: 0}
+    50% {opacity: 100}
+    95% {opacity: 0}
+    100% {opacity: 0}
+}
+
+
+
+
+
+@keyframes animatedBackground {
+    0%  {background-position: top}
+    100% {background-position: center}
+}
+
+/* Mozilla Firefox 5.0+ */
+@-moz-keyframes animatedBackground {
+    0%  {background-position: top}
+    100% {background-position: center}
+}
+
+/* Safari 4.0+, Chrome 4.0+ */
+@-webkit-keyframes animatedBackground {
+    0%  {background-position: top}
+    100% {background-position: center}
+}
+
+
+/* Opera 12.0+ */
+@-o-keyframes animatedBackground {
+    0%  {background-position: top}
+    100% {background-position: center}
+}
+
+
+
+
+
+
+
+
+
+
+.SlideOpacityWrapper{
+
+    
+    max-width:770px;
+
+    animation: animatedOpacity  6s linear infinite;
+    -moz-animation: animatedOpacity 6s linear infinite;
+    -webkit-animation: animatedOpacity 6s linear infinite;
+     -o-animation: animatedOpacity 6s linear infinite;
+     
+     
+}
+
+
+
+.slide{
+position: absolute;
+cursor: pointer !important;   
+width: 100%;
+display: flex;
+// align-content: flex-end;
+// align-content: flex-end;
+// justify-items: flex-end; ;
+// flex-direction: row;
+justify-content: flex-end;
+min-height: 300px; 
+max-width:770px;
+background-size: cover;
+
+
+
+
+background-repeat: no-repeat;
+// background-image: url('./assets/Foss_Soxtec_8000.jpg');
+animation: animatedBackground  6s linear infinite;
+-moz-animation: animatedBackground 6s linear infinite;
+-webkit-animation: animatedBackground 6s linear infinite;
+-o-animation: animatedBackground 6s linear infinite;
+
+
+
+@media (max-width:800px){
+    
+}
+
+@media (max-width:740px){
+   
+}
+@media (max-width:480px){
+ 
+    
+}
+}

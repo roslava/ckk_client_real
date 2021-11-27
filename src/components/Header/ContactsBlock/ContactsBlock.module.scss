@@ -1,0 +1,162 @@
+.ContactsBlock{
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+    // border: 1px solid rgb(40, 175, 47);
+    color: cornsilk;
+        
+        @media (max-width:600px){
+            display: none;
+        }
+    }
+
+
+    .ContactsBlock a{
+        text-decoration: none;
+        color: cornsilk;
+        text-shadow: 2px 2px 2px #285591;
+    }
+
+    .ContactsBlock a:hover{
+        text-decoration: none;
+        color: cornsilk;
+    }
+
+
+    .ContactsBlock__phone{
+        font-size: 25px;
+        font-weight: 700;
+        color:#fff0c3;
+    
+        @media (max-width:900px){
+            font-size: 20px;
+        }
+        @media (max-width:700px){
+            font-size: 17px;
+        }
+    }
+
+
+
+
+
+    .PhoneIconHolder{
+        width: 25px;
+        margin-right: 5px;
+        @media (max-width:900px){
+            width: 20px;
+            margin-right: 3px;
+        }
+        @media (max-width:700px){
+            width: 17px;
+            margin-right: 3px;
+        }
+    }
+
+    .PhoneIconHolder img{
+        width: 100%;
+          
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ContactsBlock ul{
+      margin: 0px;
+       margin-bottom: 15px;
+    // margin-left: -15px;
+    // border-left: #2dc28f 5px solid;
+    height: 88px;
+    padding-left: 10px;
+    background-color: rgb(128, 0, 79);
+    
+    @media (max-width:1000px){
+        margin-bottom: 10px;
+        height: 56px;
+    }
+    
+}
+
+
+
+
+
+
+
+.ContactsBlock li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    color:#fff0c3;
+    
+        @media (max-width:1000px){
+            font-size: 15px;
+            line-height: 19px;
+        }
+    
+}
+
+.ContactsBlock p{
+ 
+    font-size: 16px;
+    font-weight: 500;
+    color:#ffffff;
+    @media (max-width:1000px){
+        font-size: 13px;
+        line-height: 16px;
+     }
+
+     @media (max-width:790px){
+        font-size: 11px;
+        line-height: 15px;
+     }
+
+     @media (max-width:740px){
+        display: none;
+     }
+}
+
+.ContactsItem{
+    height: 230px;
+    padding: 15px;
+    -webkit-border-bottom-right-radius: 14px;
+    -webkit-border-bottom-left-radius: 14px;
+    -moz-border-radius-bottomright: 14px;
+    -moz-border-radius-bottomleft: 14px;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+   
+
+    // -webkit-box-shadow: 4px 4px 5px 0px rgba(21,80,124,1);
+    // -moz-box-shadow: 4px 4px 5px 0px rgba(21,80,124,1);
+    // box-shadow: 4px 4px 5px 0px rgba(21,80,124,1);
+
+
+    @media (max-width:1000px){
+        height: 160px;
+    }
+    @media (max-width:740px){
+        height: 90px;
+    }
+    
+
+}
+
+
