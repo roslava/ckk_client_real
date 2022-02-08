@@ -25,6 +25,8 @@ class Layout extends React.Component{
                 <Nav />
                 <Footer
                 BaseSevices = {this.props.BaseSevices}
+                imgresource = {this.props.imgresource}
+
                 logoWidth = '130'
                 logoColorType = 'white'
                 />
@@ -39,3 +41,4 @@ class Layout extends React.Component{
 }
 
 export default Layout
+

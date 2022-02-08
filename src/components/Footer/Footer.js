@@ -16,20 +16,21 @@ import PhoneIcon from './assets/SVG/phone-call.svg'
 import KeyAuth from './assets/key/key.svg'
 import YandexLogo from './assets/yandex/yandex.svg'
 
-//для техники безопасности 
-import SafetyPrecautions from './assets/safety_precautions/recommended_activities.jpg'
-import Saut from './assets/safety_precautions/Summary_of_the_SAUT.pdf'
-import { Color } from 'chalk'
+//для техники безопасности
+import RecommendedActivities from './assets/safety_precautions/recommended_activities.zip'
+import Saut from './assets/safety_precautions/summary_of_the_SAUT.zip'
+
 
 
 
 
 const media = [MediaFacebook, MediaTwitter, MediaInstagramm, Vkontakte]
-const ImportantDocuments = [SafetyPrecautions, Saut]
+const ImportantDocuments = [RecommendedActivities,Saut]
 
 
 
-const servicesPint = (services) => {
+const servicesPint = (baseSevices, imgresource) => {
+
     return (
         <ul
             className={classes.FooterUL}
@@ -37,7 +38,7 @@ const servicesPint = (services) => {
                 margin: '0px',
                 padding: '0px',
             }}>
-            {services.map((item_, index) => {
+            {baseSevices.map((item_, index) => {
                 return (
                     <li
                         key={index + 'serv'}
@@ -51,7 +52,10 @@ const servicesPint = (services) => {
                                 title: item_.title,
                                 lead: item_.lead,
                                 img: item_.img[0],
-                                text: item_.text
+                                text: item_.text,
+                                text_2: item_.text_2,
+                                undertitle_2: item_.undertitle_2,
+                                imgresource: imgresource
                             }}>
                             <img src={PixelChevron} alt="" />
                             {item_.shortTitle}
@@ -92,7 +96,7 @@ class Footer extends React.Component {
                             <div className={classes.ServicesDiv}>
                                 <img style={{ width: '43px', marginBottom: '7px', marginTop: '7px' }} src={LabSVG} alt="" />
                                 <div className={classes.ServicesDivTitle}>Исследования:</div>
-                                {servicesPint(this.props.BaseSevices)}
+                                {servicesPint(this.props.BaseSevices, this.props.imgresource)}
                             </div>
                             {/* !!!!! */}
                             <div className={classes.InfoDiv}>

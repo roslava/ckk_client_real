@@ -75,7 +75,7 @@ export default class App extends React.Component {
        !isLoaded ? <div> <Preloader /> </div>   :
  <React.Fragment>
   
-          <Layout BaseSevices={BaseSevices}>
+          <Layout  BaseSevices={BaseSevices} imgresource={imgresource}>
           {/* <YMInitializer accounts={[75443098]} options={{webvisor: true}} /> */}
              <Header
               bgImg='bgImg_02'
