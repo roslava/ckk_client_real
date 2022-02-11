@@ -1,4 +1,5 @@
-import coverImg1 from './sert1.png'
+// import coverImg1 from './sert1.png'
+import coverImg1 from './sert1_2.jpg'
 import coverImg1_prev from './sert1_prev.jpg'
 
 // import coverImg2 from './sert2.png'

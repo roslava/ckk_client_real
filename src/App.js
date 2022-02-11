@@ -22,18 +22,9 @@ import SmiArticleDetail from './components/SmiArticleDetail/SmiArticleDetail'
 import Smi from './pages/Smi/Smi'
 import Send from './pages/Send/Send'
 
-//основная версия на лаборатория-цкк.рф
+
 const articlesApi = 'http://www.cf13541.tmweb.ru/api/articles';
 const imgresource = "http://www.cf13541.tmweb.ru/storage/";
-
-//резервная копия на artnen
-// const articlesApi = 'http://www.ch44195.tmweb.ru/api/articles';
-// const imgresource = "http://www.ch44195.tmweb.ru/storage/";
-
-//локальная версия c запущенным api на локальном сервере (MAMP)
-// const articlesApi = 'http://127.0.0.1:8000/api/articles';
-// const imgresource = "http://127.0.0.1:8000/storage/";
-
 
 
 export default class App extends React.Component {

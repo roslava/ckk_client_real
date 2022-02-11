@@ -15,10 +15,10 @@ const Announcement = () =>{
 
 
         <Carousel axis="vertical" transitionTime={700} interval={4000} showThumbs={false} showIndicators={false}  autoPlay infiniteLoop showArrows={false} showStatus={false}>
-                <div>
-                    <img src={Slide1} alt={''}/>
-                    
-                </div>
+                {/*<div>*/}
+                {/*    <img src={Slide1} alt={''}/>*/}
+                {/*    */}
+                {/*</div>*/}
                 <div>
                     <img src={Slide2} alt={''}/>
                     

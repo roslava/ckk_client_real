@@ -3,10 +3,10 @@
     font-family: 'Montserrat', sans-serif;
     color: #37414d;
     margin-bottom:30px;
-    min-height: 620px;
+    min-height: 830px;
     background-color: #ffffff;
     // background-color: #fff8f4;
-    background-image: url(./assets/val_bg.jpg);
+    background-image: url(./assets/val_bg_new.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -20,25 +20,25 @@ box-shadow: 0px 0px 13px 2px rgba(255,206,181,1);
 
 
 @media (max-width:1200px){
-    min-height: 52vw;
+    min-height: 70vw;
 } 
 @media (max-width:1020px){
-    min-height: 49vw;
+    min-height: 66vw;
 }
 @media (max-width:980px){
-    padding-bottom: 28%;
+    padding-bottom: 54%;
 }
 @media (max-width:860px){
-    padding-bottom: 28%;
+    padding-bottom: 53%;
 }
 @media (max-width:810px){
-    padding-bottom: 30%;
+    padding-bottom: 53%;
 } 
 @media (max-width:765px){
-    padding-bottom: 30%;
+    padding-bottom: 53%;
 } 
 @media (max-width:690px){
-    padding-bottom: 30%;
+    padding-bottom: 53%;
 } 
 
 
