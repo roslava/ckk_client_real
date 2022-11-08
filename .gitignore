@@ -4,6 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
+.dockerignore
+.DS_Store
+/.idea
+/.vscode
 
 # testing
 /coverage
@@ -21,4 +25,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.idea
