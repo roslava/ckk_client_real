@@ -48,6 +48,7 @@
   "author": "RN",
   "license": "ISC",
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "babel-cli": "^6.18.0"
   }
 }
