@@ -10,7 +10,7 @@ import ContentWrapper from '../../components/LayoutSideBarPlusMain/ContentWrappe
 import SideBarWrapper from '../../components/LayoutSideBarPlusMain/SideBarWrapper/SideBarWrapper'
 
 import EquipmentBlock from '../../components/EquiomentInEquipmentPage/EquipmentBlock'
-import equipmentBase from '../../base_fake/equipment/equipment.json'
+// import equipmentBase from '../../base_fake/equipment/equipment.json'
 import Container from '../../components/Structure/Container/Container'
 import H1 from '../../components/H1/H1'
 import Lead from '../../components/Lead/Lead'
@@ -21,12 +21,8 @@ import ModalPhoto from '../../components/ModalPhoto/ModalPhoto'
 
 
 const EquipmentPage = (props) =>{
-
-
     const imgresource = props.imgresource
-  
-  
-    // const divDisplay = useState('none')
+     // const divDisplay = useState('none')
     // Это блок логики для отображения модального окна с увеличенным сертификатом
     const[divDisplay, setdivDisplay] = useState(false)
     const DivDisplayChanger = () =>  divDisplay === false ? setdivDisplay(true): setdivDisplay(false)
@@ -36,26 +32,36 @@ const EquipmentPage = (props) =>{
     
     divDisplay ? document.body.style.overflow = 'hidden' : document.body.style.overflow= 'unset' 
     
-    
-
-
-
         return (
             <React.Fragment>
                 <Container>
                     <div className={classes.EquipmentPage}>
                         <MainWrapper>
-                       
-                            <ContentWrapper>
-                            
-                           
-                                <H1 titleType='Main'>Оборудование</H1>
+                               <ContentWrapper>
+                                  <H1 titleType='Main'>Оборудование</H1>
                                 
                                 <Lead leadType='Main'>
-                                    {"В работе используется самое современное оборудование импортного и отечественного производства."}
+                                    {"  В работе используется самое современное оборудование импортного и отечественного производства, позволяющее измерять:"}
                                 </Lead>
+
+<ul className={classes.ul}>
+   <li className={classes.li}>Белок в кормовых ингредиентах, фураже, кормах для домашних животных, зерновых и масличных культурах, мясе, молоке, молочных продуктах, пивных ингредиентах. </li>
+   <li className={classes.li}>Клетчатку в кормовых ингредиентах, фураже, кормах для домашних животных, зерновых и масличных культурах. </li>
+   <li className={classes.li}>Жир в зерновых и масличных культурах, кормах для животных, фураже, кормовых ингредиентах, мясе, рыбных и молочных продуктах.</li>
+   <li className={classes.li}>Концентрацию лекарственных, биологически активных веществ и их метаболитов в биологических объектах, в продуктах питания, алкогольных и безалкогольных напитках, сельскохозяйственной продукции в соответствии с аттестованными методиками измерений.</li>
+   <li className={classes.li}>Кислотное и перекисное число жира, фосфорсодержащие и азотистые вещества.</li>
+   <li className={classes.li}>Действующие вещества в пестицидах, азот, водорастворимые фосфаты, калий, нерастворимый осадок, рассыпчатость, гранулометрический состав.</li>
+   <li className={classes.li}>Плотность, октановое/цетановое число, содержание серы в нефтепродуктах, фракционный состав, температуру вспышки, низкотемпературные показатели дизельного топлива.</li>
+ </ul>
+                               
+
+
+
+
+
+
                                 <EquipmentBlock
-                                    equipmentBase={equipmentBase}
+                                    // equipmentBase={equipmentBase}
                                     imgresource={imgresource}
                                 />
                             </ContentWrapper>

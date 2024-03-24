@@ -1,9 +1,10 @@
 import React from 'react'
 import "react-responsive-carousel/lib/styles/carousel.css"; 
 import { Carousel } from 'react-responsive-carousel';
-import slide1 from './img/s_img_01.jpg'
-import slide2 from './img/s_img_02.jpg'
-import slide3 from './img/s_img_03.jpg'
+import slide1 from './img/carusel_2023_001.jpg'
+import slide2 from './img/carusel_2023_002.jpg'
+import slide3 from './img/carusel_2023_003.jpg'
+import slide4 from './img/carusel_2023_004.jpg'
 
 export default class Carouseler extends React.Component{
     render(){
@@ -19,6 +20,10 @@ export default class Carouseler extends React.Component{
                 </div>
                 <div>
                     <img src={slide3} alt={''}/>
+                    
+                </div>
+                <div>
+                    <img src={slide4} alt={''}/>
                     
                 </div>
             </Carousel>

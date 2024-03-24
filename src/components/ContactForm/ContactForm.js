@@ -11,8 +11,14 @@ import H1 from '../H1/H1'
 
 
 
-// const API_PATH = 'http://artnen.ru/mailer/send.php';
-const API_PATH = 'http://www.xn----7sbad0bnab3abucy4dvh.xn--p1ai/mailer/send.php';
+
+
+
+
+// const API_PATH = 'http://www.xn----7sbad0bnab3abucy4dvh.xn--p1ai/mailer/send.php';
+const API_PATH = 'http://www.cf13541.tmweb.ru/mailer/send.php';
+
+
 
 
 export default class FeedBackForm extends React.Component{

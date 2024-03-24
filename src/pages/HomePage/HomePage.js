@@ -3,14 +3,14 @@ import Carouseler from '../../components/Carouseler/Carouseler'
 import Figures from '../../components/Figures/Figures'
 import Container from '../../components/Structure/Container/Container'
 import Block from '../../components/Structure/Block/Block'
-import EquipmentMovie from '../../components/EquipmentMovie/EquipmentMovie'
+// import EquipmentMovie from '../../components/EquipmentMovie/EquipmentMovie'
 import ContactForm from '../../components/ContactForm/ContactForm'
 import FeedbackArea from '../../components/FeedbackArea/FeedbackArea'
 
 
 
 
-const standarts = 'Лаборатория «Центра Контроля Качества» исследует сельскохозяйственную продукцию. Испытательная лаборатория аккредитована Центральным органом СДС «Добровольная система аккредитации, аттестации и&nbsp;подтверждения соответствия». Аттестат №&nbsp;ГОСТ.RU.22055 выдан&nbsp;24 декабря 2021 года.'
+const standarts = 'Лаборатория «Центра Контроля Качества» исследует сельскохозяйственную продукцию. Испытательная лаборатория аккредитована Центральным органом СДС «Добровольная система аккредитации, аттестации и&nbsp;подтверждения соответствия».'
 
 class HomePage extends React.Component {
 
@@ -42,7 +42,7 @@ class HomePage extends React.Component {
 
 
                 {/* Тут ролик про оборудование */}
-                <div style={{
+                {/* <div style={{
                     backgroundColor: '#313a45',
                     backgroundImage: 'url(' + imgresource + 'regular_img/icons/podrobneeGreen.svg)',
                     backgroundRepeat: 'no-repeat',
@@ -55,7 +55,7 @@ class HomePage extends React.Component {
 
 
                     <EquipmentMovie imgresource={imgresource} />
-                </div>
+                </div> */}
                 
                 {/* import FeedbackArea from '../../components/FeedbackArea/FeedbackArea' */}
                 <FeedbackArea imgresource={imgresource} bgImg='regular_img/BgField_green_colored.jpg' >

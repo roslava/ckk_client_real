@@ -22,12 +22,7 @@ const Values = () =>{
             <div className = {classes.Item}> <img src={Value_003} alt="Мы болеем за результат"/></div>
             <div className = {classes.Item}> <img src={Value_004} alt="Мы постоянно улучшаемся"/></div>
             </div>
-
-            {/* <div className = {classes.Item}> Мы честны и порядочны</div>
-            <div className = {classes.Item}> Мы одна команда</div>
-            <div className = {classes.Item}> Мы болеем за результат  </div>
-            <div className = {classes.Item}> Мы постоянно улучшаемся</div> */}
-        </div>
+            </div>
 </div>
     )
 }

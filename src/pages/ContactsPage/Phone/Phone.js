@@ -13,7 +13,7 @@ const Phone = (props) => {
             </div>
 
             <div className={classes.Holder}>
-                <p><a href='tel:89184294204'>8 (918) 429–42–04</a></p>
+                <p><a href='tel:89184316276'>8 (918) 431-62-76</a></p>   
             </div>
         </div>
         </div>

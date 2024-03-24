@@ -21,7 +21,7 @@ import Guarantees from './Guarantees/Guarantees'
 import Values from './Values/Values'
 import Director from './Director/Director'
 import Employees from './Employees/Employees'
-import Announcement from './Announcement/Announcement'
+// import Announcement from './Announcement/Announcement'
 import Map from './Map/Map'
 import FeedbackArea from '../../components/FeedbackArea/FeedbackArea'
 
@@ -78,7 +78,7 @@ class AboutUsPage extends React.Component {
 
                                 {/*
 ------------------------------------------------------
-| БЛОК 4. Наталья Шаханская                          |
+| БЛОК 4. Наталия Замятина                         |
 ------------------------------------------------------
 */}
                                 <Director />
@@ -95,7 +95,7 @@ class AboutUsPage extends React.Component {
 | БЛОК 6. В слайдер или анонс                        |
 ------------------------------------------------------
 */}
-                                <Announcement />
+                                {/* <Announcement /> */}
 
                                 {/*
 ------------------------------------------------------

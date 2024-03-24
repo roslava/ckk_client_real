@@ -140,7 +140,7 @@ class Footer extends React.Component {
                             {/* !!!!!!!                             */}
                             <div className={classes.ContactsDiv}>
                                 <ul>
-                                    <li><img src={PhoneIcon} alt="" /><a href="tel:+79186752452">8 (918) 675–24–52</a></li>
+                                    <li><img src={PhoneIcon} alt="" /><a href="tel:+79186752452">8 (918) 431-62-76</a></li> 
                                 </ul>
 
                                 {/* {MediaLogtypes(30, 5)} */}

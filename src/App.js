@@ -23,8 +23,13 @@ import Smi from './pages/Smi/Smi'
 import Send from './pages/Send/Send'
 
 
-const articlesApi = 'http://www.cf13541.tmweb.ru/api/articles';
-const imgresource = "http://www.cf13541.tmweb.ru/storage/";
+
+// const articlesApi = 'https://www.cf13541.tmweb.ru/api/articles';
+// const imgresource = "https://www.cf13541.tmweb.ru/storage/";
+const articlesApi = 'https://www.lab-ckk-api.ru/api/articles';
+const imgresource = "https://www.lab-ckk-api.ru/storage/";
+
+
 
 
 export default class App extends React.Component {

@@ -8,8 +8,8 @@ import Container from '../Structure/Container/Container'
 const figure_1 = () => {
     return(
         <React.Fragment>
-         <p className={classes.Number}>71</p>
-         <p className={classes.UnderNumber}>единица<br />измерительного<br />оборудования.</p>
+         <p className={classes.Number}>156</p>
+         <p className={classes.UnderNumber}>единиц<br />измерительного<br />оборудования.</p>
          </React.Fragment>
     )
 }
@@ -17,7 +17,7 @@ const figure_1 = () => {
 const figure_2 = () => {
     return(
         <React.Fragment>
-        <p className={classes.Number}>10</p>
+        <p className={classes.Number}>18</p>
          <p className={classes.UnderNumber}>единиц испытательного оборудования.</p>
          </React.Fragment>
     )
@@ -26,8 +26,8 @@ const figure_2 = () => {
 const figure_3 = () => {
     return(
         <React.Fragment>
-        <p className={classes.Number}>31</p>
-         <p className={classes.UnderNumber}>единица вспомогательного оборудования.</p>
+        <p className={classes.Number}>60</p>
+         <p className={classes.UnderNumber}>единиц вспомогательного оборудования.</p>
          </React.Fragment>
          
     )

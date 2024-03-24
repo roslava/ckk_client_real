@@ -6,6 +6,7 @@ import H1 from '../../components/H1/H1'
 import Adress from './Adress/Adress'
 import Phone from './Phone/Phone'
 import Email from './Email/Email'
+// import INN from './INN/INN'
 import ContactForm from '../../components/ContactForm/ContactForm'
 import FeedbackArea from '../../components/FeedbackArea/FeedbackArea'
 
@@ -23,13 +24,17 @@ class ContactsPage extends React.Component {
                                 <Phone></Phone>
                                 <Email></Email>
                             </div>
+                            
                         </div>
+                        
+                        
                         <div className={classes.MapHolder}>
                             <YandexMaps />
                         </div>
-                        <div className={classes.WorkingMode}>
+                        {/* <INN></INN> */}
+                        {/* <div className={classes.WorkingMode}>
                             Работаем с понедельника по пятницу с 8:00 до 17:00
-                        </div>
+                        </div> */}
                     </div>
 
                 </Container>

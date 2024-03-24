@@ -1,0 +1,37 @@
+
+.InnContainer{
+    display: flex;
+width: 100%;
+// background-color: aquamarine;
+align-items: center;
+justify-content: center;
+}
+
+.InnBlock {
+    font-size: 15px;
+    font-weight: 500;
+    width: fit-content;
+    align-self: center;
+    min-height: 34px;
+    max-height: 34px;
+    border-radius: 6px;
+    padding:  15px;
+    padding-top:  15px !important;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 10px 1px rgba(116, 113, 116, .3);
+    background: #ffffff;
+    display: flex;
+ 
+     align-content: center;
+    flex-direction: column;
+    justify-content: center;
+       
+    // background-color: aqua;
+    text-align: center;
+
+    @media (max-width:800px){
+        min-height: 60px;
+        max-height: 60px;
+       
+    }
+}

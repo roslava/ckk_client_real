@@ -19,7 +19,7 @@ const ContactsBlock = (props) => {
             </div>
             
             <div  className={classes.ContactsBlock__phone}>
-                <a href="tel:+79186752452">8 (918) 675–24–52</a>
+                <a href="tel:89184316276">8 (918) 431-62-76</a>
             </div>
             
             
